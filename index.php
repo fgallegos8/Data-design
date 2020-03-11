@@ -6,7 +6,7 @@
 </head>
 <body>
 <h2>User Experience</h2>
-<p class="freq">Click line a below!</p>
+<p class="freq">Click line the line below!</p>
 <ol>
     <li><a href="https://bootcamp-coders.cnm.edu/~fgallegos59/Data-design/epic/persona.php">user persona</a></li>
     <li><a href="https://bootcamp-coders.cnm.edu/~fgallegos59/Data-design/epic/user-story.php">user story</a></li>
