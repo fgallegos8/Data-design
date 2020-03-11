@@ -15,7 +15,8 @@
             <li>Steve loves to stream movies and have the ability to create a list of his own preferences</li>
             <li>Steve enjoys comedy</li>
             <li>He can be indecisive at times</li>
-            <li>He will sometimes overlook small details </li>
+            <li>He will sometimes overlook small details</li>
+            <li>He has a short attention span</li>
         </ul>
     </div>
 </body>
