@@ -14,7 +14,7 @@
             <li>Name: Steve Green</li>
             <li>Age - 35 years old</li>
             <li>Gender - Male</li>
-            <li>Ethnicity - Smurf </li>
+            <li>Ethnicity - Caucasian </li>
             <li>Occupation - Lion Tamer </li>
             <li>Attitude - Enjoys to have a good laugh and being up to date</li>
             <li>Technology - Smart phone, Laptop, Smart TV</li>
