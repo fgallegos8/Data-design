@@ -18,6 +18,7 @@
             <li>Occupation - Lion Tamer </li>
             <li>Attitude - Enjoys to have a good laugh and being up to date</li>
             <li>Technology - Smart phone, Laptop, Smart TV</li>
+        </ul>
     </div>
     <h3>Needs/Features</h3>
         <ul>
