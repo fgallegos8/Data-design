@@ -6,14 +6,13 @@
 </head>
 <body>
 <h1>Use Case/Interaction Flow</h1>
-<h2>Use Case</h2>
-<p>
-    When Steve gets sometime to himself he loves to watch all of his favorite shows. He loves the convenience of being
-    able to have all of his favorite shows and movies saved in a tab for his everyday use. The price for going to the
-    movie theater and the price of cable are too much for Steve. So he prefers Hulu where he can access a vast library
-    of entertainment at a low cost, in the comfort of his own home.
-</p>
-<h3>Interaction Flow</h3>
+<h2>Use Case: </h2>
+<p><b>Title:</b> Watching a show</p>
+<p><b>Description:</b>Steve wants to log onto the website and watch a show</p>
+<p><b>Name of User and Their Role:</b>Steve Green; comedy lover who enjoys personalization</p>
+<p><b>Usage pre-conditions:</b>Must have a user account, a device to watch the content, and internet access</p>
+<p><b>Usage post-conditions:</b>A show is picked and is consumed</p>
+<h4>Interaction Flow:</h4>
     <ul>
         <li>First Steve types Hulu onto search engine</li>
         <li>Then he presses the search button</li>
@@ -27,5 +26,6 @@
         <li>He watches the trailer and decides to watch it</li>
         <li>He the clicks play and the show begins</li>
     </ul>
+<p><b>Frequency of Use:</b> Every day</p>
 </body>
 </html>
