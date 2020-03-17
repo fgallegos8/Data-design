@@ -1,10 +1,9 @@
 use fgallegos59;
 ALTER DATABASE fgallegos59 CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-DROP TABLE IF EXISTS articleTag;
-DROP TABLE IF EXISTS tag;
-DROP TABLE IF EXISTS article;
-DROP TABLE IF EXISTS author;
+DROP TABLE IF EXISTS feedback;
+DROP TABLE IF EXISTS content;
+DROP TABLE IF EXISTS user;
 
 CREATE TABLE user(
      userId BINARY(16) NOT NULL,
@@ -18,15 +17,6 @@ CREATE TABLE user(
      PRIMARY KEY(userId)
 );
 
-CREATE TABLE feedback(
-    feedbackId BINARY (16) NOT NULL,
-    feedbackUserId BINARY (16) NOT NULL,
-    feedbackContentId BINARY (16) NOT NULL,
-    PRIMARY KEY (feedbackId),
-    FOREIGN KEY (feedbackUserId) REFERENCES user(userID) ,
-    FOREIGN KEY (feedbackContentId) REFERENCES content(contentId)
-);
-
 CREATE TABLE content(
     contentId BINARY(16) NOT NULL,
     contentGenre VARCHAR(128) NOT NULL,
@@ -36,3 +26,13 @@ CREATE TABLE content(
     INDEX (contentName),
     PRIMARY KEY (contentId)
 );
+
+CREATE TABLE feedback(
+    feedbackId BINARY (16) NOT NULL,
+    feedbackUserId BINARY (16) NOT NULL,
+    feedbackContentId BINARY (16) NOT NULL,
+    PRIMARY KEY (feedbackId),
+    FOREIGN KEY (feedbackUserId) REFERENCES user(userID) ,
+    FOREIGN KEY (feedbackContentId) REFERENCES content(contentId)
+);
+
